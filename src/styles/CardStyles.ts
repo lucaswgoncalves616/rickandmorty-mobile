@@ -7,8 +7,8 @@ export const cardStyles = StyleSheet.create({
         borderRadius: 8,
         marginVertical: 8,
         marginHorizontal: 16,
-        elevation: 3, // Sombra para Android
-        shadowColor: '#000', // Sombra para iOS
+        elevation: 3,
+        shadowColor: '#000',
         shadowOffset: { width: 0, height: 2 },
         shadowOpacity: 0.1,
         shadowRadius: 4,
@@ -21,7 +21,7 @@ export const cardStyles = StyleSheet.create({
     info: {
         padding: 12,
         justifyContent: 'center',
-        flex: 1, // Ajuda a evitar que textos longos quebrem o layout
+        flex: 1,
     },
     name: {
         fontSize: 18,
